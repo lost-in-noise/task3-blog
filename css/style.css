@@ -86,3 +86,37 @@ p {
   font-size: 20px;
   line-height: 28px;
 }
+
+/* footer styles */
+footer {
+  background-color: #2a596a;
+  color: #ffffff;
+  padding-top: 39px;
+  font-size: 20px;
+}
+.container-footer {
+  justify-content: space-between;
+  height: 245px;
+  padding: 42px 0 39px;
+}
+footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-transform: capitalize;
+}
+footer a {
+  color: #ffffff;
+  transition: color 0.4s ease 0s;
+  cursor: pointer;
+}
+footer a:hover {
+  color: rgba(219, 184, 241, 0.688);
+}
+.footer-logo {
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+.footer-logo:hover {
+  opacity: 0.8;
+}
