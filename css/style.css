@@ -1,5 +1,21 @@
+@font-face {
+  font-family: "Eras Bold ITC";
+  src: url("../fonts/ErasITC-Bold.eot");
+  src: url("../fonts/ErasITC-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/ErasITC-Bold.woff2") format("woff2"),
+    url("../fonts/ErasITC-Bold.woff") format("woff"),
+    url("../fonts/ErasITC-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Eras Bold ITC", sans-serif;
+}
+
 .container {
-    max-width: 1180px;
-    display: flex;
-    justify-content: space-between;
+  max-width: 1180px;
+  display: flex;
+  justify-content: space-between;
 }
